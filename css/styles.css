@@ -1,0 +1,250 @@
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+    /* outline: 1px solid #f00 !important; */
+}
+
+body {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 100vw;
+    min-height: 100vh;    
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #444;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+h2 {
+    padding: 14px 25px !important;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: #fff;
+    background-color: #444;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #444;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #444;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.8125rem;
+    font-weight: 500;
+    color: #444 !important;
+}
+
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.875rem;
+    font-weight: 500;
+    color: #444 !important;
+}
+
+.--unset-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.header-wrapper {
+    max-width: 100vw;
+    background-color: #ccc;
+}
+
+.header-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    min-height: 50px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    color: #444;
+    padding: 0 15px;
+}
+
+.nav-item:first-child {
+    padding-left: 0;
+}
+.nav-item:last-child {
+    padding-right: 0;
+}
+
+.nav-item:hover .nav-item__link {
+    color: #ffff00;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.main-wrapper {
+    max-width: 100vw;
+}
+
+.main-content {
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px dashed red; */
+}
+
+main section {
+    margin-bottom: 50px;
+}
+
+/* carousel */
+main #carousel {
+    margin-bottom: 100px;
+}
+
+/* indicators */
+.carousel-indicators__btn {
+    box-sizing: border-box !important;
+    width: 19px !important;
+    height: 19px !important;
+    border-radius: 50%;
+    border: 3px solid #696868 !important;
+    background-clip: border-box !important;
+}
+
+.carousel-indicators__btn.active {
+    background-color: #696868 !important;
+}
+
+/* captions */
+.carousel-caption {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    max-width: 520px;
+    margin-left: 40%;
+    margin-right: 10%;
+ }
+ 
+.carousel-caption p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.375rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #444 !important;
+    text-align: left;
+}
+
+.caption-buttons > .btn {
+    margin: 0 7px;
+}
+
+
+/* prev/next buttons */
+.carousel-control-prev,
+.carousel-control-next {
+    color: #444 !important;
+}
+
+main section .section-content {
+    padding: 0 24px;
+}
+
+/* cards */
+main section .section-content .card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 20px 0;
+    border: 1px solid #444;
+    border-radius: 0;    
+}
+
+main section .section-content .card img {
+    width: 184px;
+    margin: 20px auto 10px;
+}
+
+main section .section-content .card .card-body {
+    flex: 1 0 auto;
+    margin: 0 20px;
+    padding: 0;
+}
+
+main section .section-content .card .card-buttons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 10px 20px 20px;
+}
+
+/* Footer */
+.footer-wrapper {
+    max-width: 100vw;
+    background-color: #ccc;
+}
+
+.footer-content {   
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px 0 25px;
+}
+
+.footer-info {
+    border-right: 1px solid #444;
+    padding: 0 24px;
+}
+
+.footer-info:last-child {
+    border-right: none;
+}
+
+.input-group-text.fas {
+    line-height: 1;
+}
